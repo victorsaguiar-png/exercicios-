@@ -1,8 +1,4 @@
-function gerarFrases() {
-    let nome = promt("Digite seu nome:");
-    let cor = prompt("Digite sua cor favorita:");
+let nome = prompt ("Digite seu nome:")
+let cor = prompt ("Sua coe favorita é?")
 
-    let mensagem = `Meu nome é $(nome) e minha cor favorita é $(red).`;
-
-    document.getElementById("mensagem").innerText = mensagem;
-}
+alert(`Seu nome é? ${nome} Sua cor favorita é? ${cor}`)

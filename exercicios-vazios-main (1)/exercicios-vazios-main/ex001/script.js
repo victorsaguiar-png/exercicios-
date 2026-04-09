@@ -1,9 +1,5 @@
-function mostarNome () {
-    let nome = document.getElementById("nomeCompleto").ariaValueMax;
+let nome = prompt("Qual é o nome do individo")
+let sobrenome = prompt("Qual é o sobrenome do individo")
+let nomeCompleto = `${nome} ${sobrenome}`
 
-    if (nome === ""){
-        alert("Digite Seu Nome!");
-    } else{
-        alert("Seu Nome é: " + nome);
-    }
-}
+alert(`Seu primeiro nome é ${nome} e seu sobrenome é ${sobrenome} e seu nome completo é ${nomeCompleto}`)
